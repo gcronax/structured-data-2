@@ -13,7 +13,7 @@ public class pila_2 {
         re.push("2");
         des.pop();
 
-        des.push("2");
+        des.push(re.peek());
         re.pop();
 
     }
